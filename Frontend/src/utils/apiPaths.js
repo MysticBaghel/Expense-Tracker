@@ -1,4 +1,4 @@
-export const BASE_URL = "https://expense-tracker-8e5r.onrender.com";
+export const BASE_URL =  process.env.REACT_APP_API_URL;
 
 // utils/apiPaths.js
 export const API_PATHS = {

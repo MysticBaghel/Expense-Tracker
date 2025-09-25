@@ -1,7 +1,6 @@
 import React from 'react'
 import DashboardLayout from '../../components/Layouts/DashboardLayout'
 import { useState, useEffect} from 'react';
-import IncomeOverview from '../../components/Income/IncomeOverview'
 import { API_PATHS } from '../../utils/apiPaths'
 import axiosInstance from '../../utils/axiosInstance'
 import Model from '../../components/Model'
